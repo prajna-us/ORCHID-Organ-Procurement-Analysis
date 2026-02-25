@@ -1,7 +1,7 @@
 Project Scope : 
 Analyzed the full organ referral-to-transplant pipeline across multiple Organ Procurement Organizations (OPOs) — covering patient referrals, authorization decisions, procurement outcomes, and organ utilization (heart, liver, kidneys, lungs, pancreas, intestine).
 
-Schema : The database consists of 6 interrelated tables — patients, referrals_cleaned, referrals_death_info, organ_outcomes, referrals_backup, and calc_deaths — linked by patientid and referral_id to track the complete donor-to-transplant journey.
+Schema : The database consists of 6 interrelated tables patients, referrals_cleaned, referrals_death_info, organ_outcomes, referrals_backup, and calc_deaths  linked by patientid and referral_id to track the complete donor-to-transplant journey.
 
  How It Was Achieved : 
 
