@@ -1,4 +1,4 @@
- Scope : 
+Project Scope : 
 Analyzed the full organ referral-to-transplant pipeline across multiple Organ Procurement Organizations (OPOs) — covering patient referrals, authorization decisions, procurement outcomes, and organ utilization (heart, liver, kidneys, lungs, pancreas, intestine).
 
  How It Was Achieved : 
