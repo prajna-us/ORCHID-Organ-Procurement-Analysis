@@ -4,9 +4,9 @@ Analyzed the full organ referral-to-transplant pipeline across multiple Organ Pr
  How It Was Achieved : 
 
 Data Cleaning — Standardized inconsistent OPO data entry using CASE WHEN, validated referential integrity via LEFT JOIN gap analysis.
-Window Functions — ROW_NUMBER, LAG, RANK for referral timelines and year-over-year procurement trends
-CTEs — Multi-level CTEs to break complex pipeline logic into clean steps
-JOINs — Combined patient demographics, referral records, death info, and organ outcomes across multiple tables
+Window Functions — ROW_NUMBER, LAG, RANK for referral timelines and year-over-year procurement trends.
+CTEs — Multi-level CTEs to break complex pipeline logic into clean steps.
+JOINs — Combined patient demographics, referral records, death info, and organ outcomes across multiple tables.
 Stored Procedures — Reusable summary reporting across OPOs
 
 
@@ -17,15 +17,6 @@ Kidney had the highest procurement rate, intestine and pancreas the lowest
 Brain death referrals showed significantly higher authorization rates
 Donation patterns varied by blood type, age, and race
 Mechanism of injury was a strong predictor of organ viability
-
-
-Visualization : 
-Analysis outputs structured for BI dashboards:
-
-Procurement funnel — Referral → Authorization → Procurement → Transplant
-OPO comparison — authorization and procurement rates side by side
-Organ utilization breakdown and demographic heatmap
-Year-over-year trends using window function outputs
 
 
 Impact : 
